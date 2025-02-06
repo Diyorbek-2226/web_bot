@@ -12,7 +12,7 @@ bot.onText(/\/start/, (msg) => {
     const keyboard = {
         keyboard: [
             [{ text: 'App', web_app: { url: 'https://telegram-web-nine.vercel.app/' } }], // Web App havolasi
-            [{ text: 'Marketing' }], // Marketing xizmati
+            [{ text: 'Srm', web_app: { url: 'https://soff-crm-olive.vercel.app/' } }], // Marketing xizmati
             [{ text: 'Konsultatsiya' }], // Konsultatsiya xizmati
             [{ text: 'Bog\'lanish' }] // Bog'lanish xizmati
         ],
