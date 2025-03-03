@@ -13,8 +13,9 @@ bot.onText(/\/start/, (msg) => {
         keyboard: [
             [{ text: 'App', web_app: { url: 'https://telegram-web-nine.vercel.app/' } }], // Web App havolasi
             [{ text: 'Srm', web_app: { url: 'https://soff-crm-olive.vercel.app/' } }], // Marketing xizmati
-            [{ text: 'Konsultatsiya' }], // Konsultatsiya xizmati
-            [{ text: 'Bog\'lanish' }] // Bog'lanish xizmati
+           
+            // Konsultatsiya xizmati
+         
         ],
         resize_keyboard: true, // Klaviaturani avtomatik o'lchash
         one_time_keyboard: true // Bir marta ko'rsatish
